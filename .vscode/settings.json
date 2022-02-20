@@ -1,0 +1,10 @@
+{
+	"filewatcher.commands": [
+		{
+			"match": "\\.html*",
+			"isAsync": true,
+			"cmd": "cd C:\\Users\\conta\\Desktop\\techmor && npx gluu ",
+			"event": "onFileChange"
+		}		
+	]
+}

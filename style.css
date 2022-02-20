@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Dosis', sans-serif;
+}
+details .open{
+    display: none;
+}
+details[open] .closed{
+    display: none;
+}
+details[open] .open{
+    display: block;
+}
+html { 
+    scroll-behavior: smooth; 
+  }
+  .main-navigation{
+      top:-100%;
+  }
+  #menu .closeIcon{
+      display: none;
+  }
+  #menu.opened .openIcon{
+display: none;
+  }
+  #menu.opened .closeIcon{
+    display: block;
+      }
+
+      .hover-shadow:hover{
+        box-shadow: 1px 1px 25px 10px rgba(55,78,152,0.36);
+-webkit-box-shadow: 1px 1px 25px 10px rgba(55,78,152,0.36);
+-moz-box-shadow: 1px 1px 25px 10px rgba(55,78,152,0.36);
+      }
+
+.hover-shadow-blue:hover{
+  box-shadow: 1px 1px 25px 10px #1480eb3f;
+-webkit-box-shadow: 1px 1px 25px 10px #1480eb3f;
+-moz-box-shadow: 1px 1px 25px 10px #1480eb3f;
+}
+
+.shadow-blue{
+  box-shadow: 1px 1px 25px 10px #1480eb3f;
+-webkit-box-shadow: 1px 1px 25px 10px #1480eb3f;
+-moz-box-shadow: 1px 1px 25px 10px #1480eb3f;
+}
+
+.shadow-career{
+  box-shadow: 1px 1px 25px 10px #66a5df34;
+-webkit-box-shadow: 1px 1px 25px 10px #66a5df34;
+-moz-box-shadow: 1px 1px 25px 10px #66a5df34;
+}
+.shadow-graph{
+  box-shadow: 1px 1px 25px 10px #1bb2ad2d;
+-webkit-box-shadow: 1px 1px 25px 10px #1bb2ad2d;
+-moz-box-shadow: 1px 1px 25px 10px #1bb2ad2d;
+}
+
+.shadow-faq{
+  box-shadow: 1px 1px 25px 10px #a7acac34;
+-webkit-box-shadow: 1px 1px 25px 10px #a7acac34;
+-moz-box-shadow: 1px 1px 25px 10px #a7acac34;
+}
+
+.hero-btn-active{
+  @apply !bg-white !text-black;
+}
+
+details[open] .opened{
+  display: block;
+}
+details[open] .closed{
+  display: hidden;
+}
+details[open] summary{
+  color:black !important;
+} 

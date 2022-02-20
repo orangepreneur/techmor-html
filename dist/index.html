@@ -1,0 +1,551 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> <link href="./style.css" rel="stylesheet">
+  <title>TechMor</title>
+  
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<style>
+    #chartdiv {
+      width: 100%;
+      height: 500px;
+    }
+    </style>
+
+<style>
+@media screen and (min-width:1000px){
+   .case-studies .swiper-slide-next{
+    width:33% !important;
+}
+.swiper-slide{
+    transition: all ease 0.2s;
+}
+.did-you-know .swiper-slide{
+    opacity:0.6;
+    padding-top: 20px;
+} 
+.did-you-know .swiper-button-next:after,.did-you-know  .swiper-button-prev:after{
+    font-size:16px;
+    font-weight: bold;
+    color:black;
+}
+
+.case-studies .swiper-slide-active{
+    width: 65% !important;
+}
+}
+.swiper{
+    padding-bottom: 70px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: 20px;
+    border-radius: 25px;
+    height: 5px;
+    transition: all ease 0.2s;
+}
+.swiper-pagination-bullet-active{
+    background: #7b7f80;
+    width: 40px !important;
+}
+</style>
+    
+</head></html>
+<body>
+    <div class="sticky px-10 md:px-20 py-6 z-50 mx-auto px top-0 w-full  flex items-center justify-between">
+    <div class="logo w-3/12">
+      <a href="./index.html">  <img class="lg:w-[200px] 2xl:w-[280px]" src="./assets/images/logoTechMor.png" ></a>
+    </div>
+    <div class="w-[100px] lg:w-1/12 flex justify-end">
+        <div id="menu" class=" shadow-xl cursor-pointer p-3 bg-white w-12 h-12">
+            <img class="w-6 h-6 opacity-50 openIcon" src="./assets/images/menu.png" alt="">
+            <img class="w-6 h-6 opacity-50 closeIcon" src="./assets/images/cancel.png" alt="">
+        </div>
+    </div>
+  </div>
+  <div id="main-navigation" class="transition-all z-40 md:px-10 xl:px-20  w-full fixed -mt-[2000px]">
+     <div class="-mt-32 md:max-w-[700px] lg:max-w-full py-32 rounded-bl-[50px] rounded-br-[50px] shadow-2xl bg-white">
+         <div class="md:max-w-[600px] xl:max-w-[1000px] lg:mx-auto md:flex ">
+             <div class="md:w-1/2 border-r-2 lg:border-gray-300 px-6">
+                 <div>
+                     
+                     <a class="block uppercase md:text-[40px] text-gray-500 hover:text-black font-medium py-1 hover:underline" href="./contact.html">Contact US</a>
+                     <div class="xl:ml-10 mt-2">
+                        <div class="text-gray-600 font-semibold md:text-xl">Address: 5008, Meadow Lane, Marietta, GA 30068<br>
+                            Phone: +1650 - 252 - 0184<br>
+                            Email: prateek.datta@techmorml.com</div>
+                            
+                    </div>
+                    </div>
+             </div>
+             <div class="md:w-1/2 px-6">
+                <ul class="mt-10 lg:mt-0 xl:ml-14">
+                    <li class="mb-2 md:mb-7 text-gray-500 text-lg md:text-4xl hover:text-black uppercase font-semibold"><a href="./index.html">Home</a></li>
+                    <li class="mb-2 md:mb-7 text-gray-500 text-lg md:text-4xl hover:text-black uppercase font-semibold"><a href="./about.html">About</a></li>
+                    <li class="mb-2 md:mb-7 text-gray-500 text-lg md:text-4xl hover:text-black uppercase font-semibold"><a href="#">Our AL/ML Solutions</a></li>
+                    <li class="mb-2 md:mb-7 text-gray-500 text-lg md:text-4xl hover:text-black uppercase font-semibold"><a href="./faq.html">FAQ</a></li>
+                    <li class="mb-2 md:mb-7 text-gray-500 text-lg md:text-4xl hover:text-black uppercase font-semibold"><a href="./career.html">Careers</a></li>
+               </ul>
+             </div>
+
+         </div>
+</div>
+</div>
+ 
+  <header class="-mt-28 w-full  md:min-h-[600px]  lg:h-[103vh] 2xl:h-[100vh] relative">
+      <div id="header-banner" class="w-full  md:min-h-[600px] h-full bg-cover  transition-all" style=" background-attachment: fixed;background-image:url(./assets/images/header-slider-1.jpg);background-position: center center;background-size:cover;background-repeat: no-repeat;" data-slide0-background="./assets/images/header-slider-1.jpg" data-slide1-background="./assets/images/header-slider-2.jpg">
+        <div class="flex w-full min-h-[600px] h-full items-center">
+    <div class="md:w-1/12"></div>
+    <div class="!mt-10 m-4 md:!m-0 w-full md:w-8/12 xl:w-6/12 relative bg-white bg-opacity-20 p-8 min-h-[350px] md:min-h-[300px] 2xl:min-h-[500px] flex justify-center flex-col">
+<div class="header-slides">
+    <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[73px] text-white font-semibold leading-tight">Radically increase ability of 
+        <br>Mortgage Industry participants</h2>
+        <p class="mt-8 text-white text-lg xl:text-[1.4rem] 2xl:text-[1.77rem]">to scale and serve their Channels in delivering same day / next day cycle-times</p>
+         
+</div>
+<div class="header-slides hidden">
+    <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[73px] text-white font-semibold leading-tight">Empower Mortgage Industry to 
+        scale spontaneously</h2>
+        <p class="mt-8 text-white text-lg xl:text-[1.4rem] 2xl:text-[1.77rem]">by performing Compliance and Underwriting Reviews through the combined 
+            power of Artificial Intelligence, Machine Learning and Subject Matter Expertise</p>
+         
+</div> <div>
+      <div class="flex items-center justify-center absolute right-0 bottom-0">
+        <div id="header-hero-btn-0" onclick="changeSlide(0)" class="px-14 text-white hero-btn-active  cursor-pointer  border border-white py-3 font-medium">Vision</div>
+        <div id="header-hero-btn-1" onclick="changeSlide(1)" class="px-14 text-white cursor-pointer border border-white py-3 font-medium">Mission</div>
+      </div>
+  </div>
+</div>
+   </div>
+      </div>
+      <a href="#next" class="absolute bottom-2 left-1/2 z-20 transform -translate-x-1/2">
+          <img class="w-[30px] xl:w-[50px] 2xl:w-[80px]" src="./assets/images/ba-1.png" alt="">
+          <img class="w-[30px] xl:w-[50px] 2xl:w-[80px]" src="./assets/images/ba-2.png" alt="">
+          <img class="w-[30px] xl:w-[50px] 2xl:w-[80px]" src="./assets/images/ba-3.png" alt="">
+      </a>
+  </header>
+  <div id="next" class="px-4 md:px-10 xl:px-0 pt-10 md:py-20 mx-auto xl:max-w-[1200px] 2xl:max-w-[1600px]">
+    <div class="md:flex rounded-2xl shadow-2xl overflow-hidden bg-cover " style="background-image:url(./assets/images/section1-bg.jpg);">
+    <div class="w-1/2 lg:w-3/5 h-full"></div>
+    <div class="w-1-2 lg:w-2/5 h-full relative bg-black bg-opacity-20 px-8 py-10 md:py-24 xl:py-28 2xl:py-52">
+        <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[73px] text-white font-semibold">Rapid Deployment</h2>
+        <p class="mt-8 text-white text-lg xl:text-[1.4rem] 2xl:text-[1.77rem]">We have experience in using all Industry Leading Loan Origination Systems and Servicing Systems</p>
+        
+    </div>
+  </div>
+  </div>
+  <div class="px-4 md:px-10 xl:px-0 py-10 xl:py-20 mx-auto xl:max-w-[1200px] 2xl:max-w-[1600px]">
+      <div class="md:flex flex-wrap">
+        <div class="md:w-full xl:w-5/12 mb-10 xl:mb-0">
+            <h2 class="lg:mt-10 mb-10 lg:mb-20 text-2xl md:text-4xl xl:text-5xl 2xl:text-[73px] text-[#7d7d7d] font-semibold leading-tight">Channel Supported</h2>
+            <div class="rounded-2xl py-10 md:py-20 xl:py-0 shadow-xl overflow-hidden px-8 xl:min-h-[470px] 2xl:min-h-[630px] flex items-center bg-cover" style="background-image: url(./assets/images/channel-support-banner.jpg);">
+                <div class="w-full lg:max-w-[350px]">
+                    <h3 class="mb-10 text-xl md:text-2xl text-white 2xl:text-4xl  font-medium">
+                        Retail, Wholesal & Correpondent Lenders
+                    </h3>
+                    <p class="text-lg lg:text-xl 2xl:text-2xl text-white">Automates Agency & Gov'y mandatory Underwriting & Post Close Audits
+                        100% Post Close Cure-then-ship vs Sampling improves execution
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="md:w-full xl:w-7/12 lg:px-6">
+          <div class="lg:grid grid-cols-1 lg:gap-6 lg:grid-cols-2 items-center justify-center">
+            <div class="rounded-2xl py-10 md:py-20  mb-10 lg:mb-0  shadow-xl overflow-hidden px-8 xl:py-10 2xl:py-20 flex items-center bg-cover" style="background-image: url(./assets/images/channel-2.jpg);">
+                <div class="w-full ">
+                    <h3 class="mb-10 text-xl md:text-2xl text-white 2xl:text-4xl font-medium">
+                        Corresponded Buyers
+                    </h3>
+                    <p class="lg:max-w-[250px] text-lg lg:text-xl 2xl:text-2xl text-white">100% Due Diligence for 1/3rd the cost - Done in 10% of current time
+                        Bid better increase Margine & Settle Faster </p>
+                </div>
+            </div>
+            <div class="rounded-2xl py-10 md:py-20 mb-10 lg:mb-0   shadow-xl overflow-hidden px-8 xl:py-10 2xl:py-20 flex items-center bg-cover" style="background-image: url(./assets/images/channel-3.jpg);">
+                <div class="w-full ">
+                    <h3 class="mb-10 text-xl md:text-2xl text-white 2xl:text-4xl  font-medium">
+                        Loan & MSR Traders
+                    </h3>
+                    <p class="text-lg lg:max-w-[250px] lg:text-xl 2xl:text-2xl text-white">Friction Free Re-Trading with zero re-touch
+                        Enables Up-Trade/Down trade Reverse Inquiry bidding - even mid-trade</p>
+                </div>
+            </div>
+            <div class="rounded-2xl py-10 md:py-20 mb-10 lg:mb-0   col-span-2 shadow-xl overflow-hidden px-8 xl:py-10 2xl:py-32 flex items-center bg-cover" style="background-image: url(./assets/images/channel-4.jpg);">
+                <div class="w-full lg:max-w-[550px]">
+                    <h3 class="mb-10 text-xl md:text-2xl text-white 2xl:text-4xl  font-medium">
+                        Mortgage Servicers
+                    </h3>
+                    <p class="text-lg lg:text-xl 2xl:text-2xl text-white lg:mb-36 2xl:mb-0">Boarding in 10% of the time at significant cost reduction
+                      <br>  100% indexing & Data Reconciled to Docs of Record
+                        </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div style="background-image:url(./assets/images/background.png);background-position: bottom;" class="py-10 lg:py-32 w-full bg-cover px-4 md:px-8 xl:px-0">
+    <div class="px-10 py-10 mx-auto  2xl:max-w-[1400px] xl:max-w-[1100px] bg-white rounded-2xl shadow-graph">
+        <h3 class="mb-5  text-center text-[#59787e] text-xl md:text-3xl lg:text-4xl font-semibold">
+            
+            Total U.S. Mortgage Originations 2015-Q1 2021
+        </h3>
+
+
+<div id="chartdiv"></div>
+<p align="center">Source : Mortgage Bankers Association &copy; Statistica
+    
+    </p></div>
+  </div>
+  <div class="px-4 md:px-10 xl:px-0 py-20 mx-auto xl:max-w-[1200px] 2xl:max-w-[1600px]">
+    <h2 class="lg:mb-10 text-2xl md:text-4xl xl:text-5xl 2xl:text-[73px] text-[#7d7d7d] font-semibold leading-tight">Did You Know?</h2>
+          <div class="w-full lg:my-10">
+              
+              <div class="swiper did-you-know ">
+                <div class="swiper-wrapper">
+                  <div class="  swiper-slide p-6 hover:!opacity-100">
+                    <a href="#"> <div class="my-3 rounded-2xl relative shadow-transparent transition-all  hover-shadow overflow-hidden lg:px-8 lg:py-10 lg:min-h-[540px] flex items-center">
+                        <div class="w-full ">
+                        <div class="lg:text-[40px] 2xl:text-[70px] font-medium underline py-2">01</div>
+                        <h3 class="mb-10  text-xl md:text-2xl lg:text-3xl 2xl:text-4xl   font-medium">
+                            How many data elements are 
+                            required to do Income Calculation?
+                        </h3>
+                        <p class="text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+                    </div> </div> </a>
+                </div>
+                <div class="  swiper-slide p-6 hover:!opacity-100">
+                    <a href="#"> <div class="my-3 rounded-2xl relative shadow-transparent transition-all  hover-shadow overflow-hidden lg:px-8 lg:py-10 lg:min-h-[540px] flex items-center">
+                        <div class="w-full ">
+                        <div class="lg:text-[40px] 2xl:text-[70px] font-medium underline py-2">02</div>
+                        <h3 class="mb-10  text-xl md:text-2xl lg:text-3xl 2xl:text-4xl   font-medium">
+                            How many different type of 
+                            bank statements are there?
+                        </h3>
+                        <p class="text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+                    </div> </div> </a>
+                </div>
+                <div class="  swiper-slide p-6 hover:!opacity-100">
+                    <a href="#"> <div class="my-3 rounded-2xl relative shadow-transparent transition-all  hover-shadow overflow-hidden lg:px-8 py-10 lg:min-h-[540px] flex items-center">
+                        <div class="w-full ">
+                        <div class="lg:text-[40px] 2xl:text-[70px] font-medium underline py-2">03</div>
+                        <h3 class="mb-10 text-xl md:text-2xl lg:text-3xl 2xl:text-4xl  font-medium">
+                            Number of different formats 
+                            of PayStubs?
+                        </h3>
+                        <p class="text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </p>
+                    </div> </div> </a>
+                </div>
+            </div>
+            <div class="absolute transform translate-x-[-35%] md:translate-x-0 z-40 right-0 w-[200px] bottom-14 md:bottom-0 flex items-center justify-center">
+                <div class="dyk-button-prev mr-2 rounded-full bg-gray-300 w-12 h-12 flex items-center justify-center  cursor-pointer">
+                    <img src="./assets/images/dyk-left-arrow.png" alt="">
+                </div>
+                <div class="dyk-button-next rounded-full bg-gray-300 w-12 h-12 flex items-center justify-center cursor-pointer">
+                    <img src="./assets/images/dyk-right-arrow.png" alt="">
+                </div>
+            </div>
+            <div class="did-you-know-swiper-pagination swiper-pagination"></div>
+               </div></div> 
+                </div>
+                
+               
+              
+            
+  
+  
+  <div style="display:none;">
+    <img src="./assets/images/header-slider-2.jpg" width="1" height="1" border="0" alt="Image 01">
+</div> 
+<footer class="bg-[#f6f6f6] px-4 md:px-8">
+    <div class="pt-10 lg:py-20 mx-auto xl:max-w-[1200px] 2xl:max-w-[1600px]">
+        <div class="w-full flex-wrap md:flex p-4 lg:p-0">
+            <div class="w-1/2 lg:w-5/12 mb-10 lg:mb-0">
+                <div class="flex items-start ">
+                    <img class="mr-5 block" src="./assets/images/footer-icon-1.png" alt="">
+                    <img class="mr-5 block" src="./assets/images/footer-icon-2.png" alt="">
+                    <img class="mr-5 block" src="./assets/images/footer-icon-3.png" alt="">
+                </div>
+                <img src="./assets/images/logoTechMor.png" width="250" class="mt-10 lg:mt-32" alt="">
+            </div>
+            <div class="w-1/2 lg:w-3/12 mb-10 lg:mb-0">
+                <h4 class="mb-2 text-gray-600 text-xl font-semibold">Navigations</h4>
+                <ul>
+                    <li class="mb-2 text-gray-600 text-xl"><a href="./index.html">Home</a></li>
+                    <li class="mb-2 text-gray-600 text-xl"><a href="./about.html">About</a></li>
+                    <li class="mb-2 text-gray-600 text-xl">Our AL/ML Solutions</li>
+                    <li class="mb-2 text-gray-600 text-xl">FAQ</li>
+                    <li class="mb-2 text-gray-600 text-xl"><a href="./career.html">Careers</a></li>
+                    <li class="mb-2 text-gray-600 text-xl"><a href="./contact.html">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="w-full lg:w-4/12 mb-10 lg:mb-0">
+                <div class="text-gray-600 font-semibold text-xl">Address: 5008, Meadow Lane, Marietta, GA 30068
+                    <br>
+                    Phone: +1650 - 252 - 0184<br>
+                    Email: prateek.datta@techmorml.com</div>
+                    <div class="!hidden flex items-center mt-5">
+<a href="#"><img class="mr-4 opacity-50" src="./assets/images/insta.png" alt=""></a>
+<a href="#"><img class="mr-4 opacity-50" src="./assets/images/twitter.png" alt=""></a>
+<a href="#"><img class="mr-4 opacity-50" src="./assets/images/facebook.png" alt=""></a>
+<a href="#"><img class="mr-4 opacity-50" src="./assets/images/linkedin.png" alt=""></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <div id="scrollToTop" class="opacity-0 duration-150 cursor-pointer transition-all fixed z-50 right-5 bottom-5">
+      <img class="w-10 h-10" src="./assets/images/up-arrow.png">
+  </div>
+
+  <div class="w-full text-center py-2 md:py-4 ">
+    © 2022 Techmor - MarmaladeDigital Pvt Ltd - All Rights Reserved.
+  </div>
+<script src="./assets/js/script.js"></script>  
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+      let headerSlideIndex= 0;
+      const swiper = new Swiper('.case-studies', {
+        slidesPerView:1,
+        spaceBetween:0,
+  loop: true,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    700: {
+        slidesPerView:2,
+        spaceBetween:20,
+    },
+},
+  // If we need pagination
+  pagination: {
+          el: ".case-studies .swiper-pagination",
+          clickable: true
+      }
+});
+ 
+const swiper2 = new Swiper('.did-you-know', {
+        slidesPerView:1,
+        spaceBetween:0,
+        autoplay: {
+   delay: 5000,
+   disableOnInteraction:false
+ },
+        loop: true,
+  navigation: {
+          nextEl: ".dyk-button-next",
+          prevEl: ".dyk-button-prev",
+        },
+  // Responsive breakpoints
+  breakpoints: {
+    700: {
+        slidesPerView: 2,
+        spaceBetween:0,
+    },
+    // when window width is >= 320px
+    1200: {
+        slidesPerView: 3,
+        spaceBetween:0,
+    },
+},
+  // If we need pagination
+  pagination: {
+          el: ".did-you-know-swiper-pagination",
+          clickable: true
+      }
+});
+    const changeSlide = (backgroundIndex)=>{
+      document.getElementById('header-hero-btn-0').classList.remove('hero-btn-active');
+      document.getElementById('header-hero-btn-1').classList.remove('hero-btn-active');
+      document.getElementById('header-hero-btn-'+backgroundIndex).classList.add('hero-btn-active');
+      if(  headerSlideIndex!=backgroundIndex){
+        headerSlideIndex=backgroundIndex;
+        let slides = document.querySelectorAll('.header-slides');
+        slides.forEach(slide=>{
+            slide.classList.toggle('hidden');
+        });
+
+        headerBanner.style.backgroundImage="url("+headerBanner.getAttribute('data-slide'+backgroundIndex+'-background');+");";
+      }
+    }
+  </script>
+  <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+  <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+          
+          <script>
+              am5.ready(function() {
+              
+              // Create root element
+              // https://www.amcharts.com/docs/v5/getting-started/#Root_element
+              var root = am5.Root.new("chartdiv");
+              
+              
+              // Set themes
+              // https://www.amcharts.com/docs/v5/concepts/themes/
+              root.setThemes([
+                am5themes_Animated.new(root)
+              ]);
+              
+              
+              // Create chart
+              // https://www.amcharts.com/docs/v5/charts/xy-chart/
+              var chart = root.container.children.push(am5xy.XYChart.new(root, {
+                panX: true,
+                panY: true,
+                wheelX: "panX",
+                wheelY: "zoomX"
+              }));
+              
+              // Add cursor
+              // https://www.amcharts.com/docs/v5/charts/xy-chart/cursor/
+              var cursor = chart.set("cursor", am5xy.XYCursor.new(root, {}));
+              cursor.lineY.set("visible", false);
+              
+              
+              // Create axes
+              // https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+              var xRenderer = am5xy.AxisRendererX.new(root, { minGridDistance: 30 });
+              xRenderer.labels.template.setAll({
+                rotation: -90,
+                centerY: am5.p50,
+                centerX: am5.p100,
+                paddingRight: 15
+              });
+              
+              var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+                maxDeviation: 0.3,
+                categoryField: "country",
+                renderer: xRenderer,
+                tooltip: am5.Tooltip.new(root, {})
+              }));
+              
+              var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+                maxDeviation: 0.3,
+                renderer: am5xy.AxisRendererY.new(root, {})
+              }));
+              
+              
+              // Create series
+              // https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+              var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+                name: "Series 1",
+                xAxis: xAxis,
+                yAxis: yAxis,
+                valueYField: "value",
+                sequencedInterpolation: true,
+                categoryXField: "country",
+                tooltip: am5.Tooltip.new(root, {
+                  labelText:"{valueY}"
+                })
+              }));
+              
+              series.columns.template.setAll({ cornerRadiusTL: 5, cornerRadiusTR: 5 });
+              series.columns.template.adapters.add("fill", (fill, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+              });
+              
+              series.columns.template.adapters.add("stroke", (stroke, target) => {
+                return chart.get("colors").getIndex(series.columns.indexOf(target));
+              });
+              //Total mortgage originations in the United States from 2000 to 1st quarter 2021 (in billion U.S. dollars)
+              
+              // Set data
+              var data = [{
+                country: "Q1 2015",
+                value: 348
+              }, {
+                country: "Q2 2015",
+                value: 475
+              }, {
+                country: "Q3 2015",
+                value: 438
+              }, {
+                country: "Q4 2015",
+                value: 417
+              }, {
+                country: "Q1 2016",
+                value: 351
+              }, {
+                country: "Q2 2016",
+                value: 542
+              }, {
+                country: "Q3 2016",
+                value: 636
+              }, {
+                country: "Q4 2016",
+                value: 523
+              }, {
+                country: "Q1 2017",
+                value: 352
+              }, {
+                country: "Q2 2017",
+                value: 467
+              }, {
+                country: "Q3 2017",
+                value: 490
+              }, {
+                country: "Q4 2017",
+                value: 451
+              }, {
+                country: "Q1 2018",
+                value: 349
+              }, {
+                country: "Q2 2018",
+                value: 461
+              }, {
+                country: "Q3 2018",
+                value: 466
+              }, {
+                country: "Q4 2018",
+                value: 400
+              }, {
+                country: "Q1 2019",
+                value: 325
+              }, {
+                country: "Q2 2019",
+                value: 501
+              }, {
+                country: "Q3 2019",
+                value: 651
+              }, {
+                country: "Q4 2019",
+                value: 696
+              }, {
+                country: "Q1 2020",
+                value: 563
+              }, {
+                country: "Q2 2020",
+                value: 928
+              }, {
+                country: "Q3 2020",
+                value: 1076
+              }, {
+                country: "Q4 2020",
+                value: 1261
+              }, {
+                country: "Q4 2021",
+                value: 1094
+              }];
+              
+              xAxis.data.setAll(data);
+              series.data.setAll(data);
+              
+              
+              // Make stuff animate on load
+              // https://www.amcharts.com/docs/v5/concepts/animations/
+              series.appear(1000);
+              chart.appear(1000, 100);
+              
+              }); // end am5.ready()
+              </script>
+</body>
