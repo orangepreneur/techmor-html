@@ -48,82 +48,31 @@
           <div id="evolutionTab" class="tabContent relative">
                 <div class="max-w-[1000px] xl:!overflow-visible swiper mySwiper relative">
                 <div class="swiper-wrapper pt-10 pb-20">
-                  <div class="swiper-slide">
-                         <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-                <!-- Year -->
-                <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2008</div>
-                <!-- Content -->
-                <div class="z-20">
-                    <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-                        <div class="py-6 px-4 bg-[#b4dbff] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                            Bond Loan PreQual
-                        </div>
-                        <div class="py-6 px-10">
-                            <ul class="list-disc">
-                                <li class="text-xl text-[#7d7d7d] mb-2">Web Form for Loan Officers and Real Estate Agents
-                                    </li>
-                                <li class="text-xl text-[#7d7d7d] mb-2">
-                                    Enabled Instant Housing Agency loan PreQual</li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--Connecting Strip -->
-                <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-            </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-           <!-- Year -->
-           <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2010</div>
-           <!-- Content -->
-           <div class="z-20">
-               <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-                   <div class="py-6 px-4 bg-[#d0d6ff] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                    Forensic Underwriting
-                   </div>
-                   <div class="py-6 px-10">
-                       <ul class="list-disc">
-                           <li class="text-xl text-[#7d7d7d] mb-2">Expert Witness Portal</li>
-                           <li class="text-xl text-[#7d7d7d] mb-2">
-                            Empowered by Forensic Defense Underwriting for Lenders in litigation</li>
-                           </ul>
-                   </div>
-               </div>
-           </div>
-           <!--Connecting Strip -->
-           <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-       </div>
-             </div>
-             <div class="swiper-slide">
-                <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-       <!-- Year -->
-       <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2012</div>
-       <!-- Content -->
-       <div class="z-20">
-           <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-               <div class="py-6 px-4 bg-[#fddbf2] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                Default Administration
-               </div>
-               <div class="py-6 px-10">
-                   <ul class="list-disc">
-                       <li class="text-xl text-[#7d7d7d] mb-2">Foreclosure Tracking Portal</li>
-                       <li class="text-xl text-[#7d7d7d] mb-2">
-                        Facilitated Asset Recovery and Tracking for tier-one banks</li>
-                       </ul>
-               </div>
-           </div>
-       </div>
-       <!--Connecting Strip -->
-       <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-   </div>
-         </div>
-
+             <partial name="timeline-slide.html" color="#b4dbff" year="2008" title="Bond Loan PreQual">
+                <ul class="list-disc">
+                    <li class="text-xl text-[#7d7d7d] mb-2">Web Form for Loan Officers and Real Estate Agents
+                        </li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">
+                        Enabled Instant Housing Agency loan PreQual</li>
+                    </ul>
+             </partial>
+             <partial name="timeline-slide.html" year="2010" color="#d0d6ff" title="Forensic Underwriting">
+                <ul class="list-disc">
+                    <li class="text-xl text-[#7d7d7d] mb-2">Expert Witness Portal</li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">
+                     Empowered by Forensic Defense Underwriting for Lenders in litigation</li>
+                    </ul>
+             </partial>
+         <partial name="timeline-slide.html" year="2012" color="#fddbf2" title="Default Administration">
+            <ul class="list-disc">
+                <li class="text-xl text-[#7d7d7d] mb-2">Foreclosure Tracking Portal</li>
+                <li class="text-xl text-[#7d7d7d] mb-2">
+                 Facilitated Asset Recovery and Tracking for tier-one banks</li>
+                </ul>
+         </partial>
                 </div>
               </div>
-              
               <div class="w-full bg-gray-200 h-[10px] absolute top-[55px] left-0">
-
             </div>
           </div>
           <div id="fintechTab" class="hidden tabContent relative">
@@ -177,27 +126,24 @@
            <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
         </div>
              </div>
-             <div class="swiper-slide">
-                <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-       <!-- Year -->
-       <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2019</div>
-       <!-- Content -->
-       <div class="z-20">
-           <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-               <div class="py-6 px-4 bg-[#ffd1d3] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                PRISMacTM  Underwriting         
-               </div>
-               <div class="py-6 px-10">
-                   <ul class="list-disc">
-                       <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
-                       </ul>
-               </div>
-           </div>
-       </div>
-       <!--Connecting Strip -->
-       <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-    </div>
-         </div>
+             <!-- Slide 1 -->
+             <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+                <ul class="list-disc">
+                    <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
+                    </ul>
+             </partial>
+             <!-- Slide 2 -->
+             <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+                <ul class="list-disc">
+                    <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
+                    </ul>
+             </partial>
+             <!-- Slide 3 -->
+         <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+            <ul class="list-disc">
+                <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
+                </ul>
+         </partial>
 
                 </div>
                
@@ -206,7 +152,6 @@
 
             </div>
           </div>
-         
         </div>
     </div>
     <!-- <div class="px-4 md:px-10  mx-auto xl:max-w-[1200px] 2xl:max-w-[1600px]">

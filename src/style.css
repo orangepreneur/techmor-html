@@ -523,20 +523,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: sticky;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
 .top-\[55px\] {
   top: 55px;
 }
 
 .left-0 {
   left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-1\/2 {
+  left: 50%;
 }
 
 .top-\[170px\] {
@@ -647,12 +647,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mt-10 {
@@ -699,10 +699,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem !important;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -743,12 +739,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none !important;
 }
 
-.h-\[150px\] {
-  height: 150px;
-}
-
 .h-\[10px\] {
   height: 10px;
+}
+
+.h-\[150px\] {
+  height: 150px;
 }
 
 .h-\[460px\] {
@@ -765,10 +761,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-16 {
   height: 4rem;
-}
-
-.h-2 {
-  height: 0.5rem;
 }
 
 .h-12 {
@@ -825,14 +817,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.\!w-5 {
-  width: 1.25rem !important;
 }
 
 .w-\[200px\] {
@@ -915,10 +899,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -1008,21 +988,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#b4dbff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(180 219 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#d0d6ff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(208 214 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#fddbf2\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 219 242 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#ffd1d3\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 209 211 / var(--tw-bg-opacity));
@@ -1046,11 +1011,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#7d7d7d\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(125 125 125 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#f6f6f6\] {
@@ -1079,21 +1039,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(243 244 246 / 0));
 }
 
-.from-gray-200 {
-  --tw-gradient-from: #e5e7eb;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(229 231 235 / 0));
-}
-
 .to-\[\#a5a6c1\] {
   --tw-gradient-to: #a5a6c1;
 }
 
 .to-\[\#d1d2d2\] {
   --tw-gradient-to: #d1d2d2;
-}
-
-.to-gray-300 {
-  --tw-gradient-to: #d1d5db;
 }
 
 .bg-cover {
@@ -1178,11 +1129,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .py-32 {
@@ -1273,11 +1219,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#59787e\] {
   --tw-text-opacity: 1;
   color: rgb(89 120 126 / var(--tw-text-opacity));
-}
-
-.text-\[\#262626\] {
-  --tw-text-opacity: 1;
-  color: rgb(38 38 38 / var(--tw-text-opacity));
 }
 
 .text-gray-600 {
@@ -1484,10 +1425,6 @@ details[open] summary{
     margin-bottom: 1.75rem;
   }
 
-  .md\:inline-block {
-    display: inline-block;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -1524,10 +1461,6 @@ details[open] summary{
     width: 100%;
   }
 
-  .md\:w-10 {
-    width: 2.5rem;
-  }
-
   .md\:max-w-\[300px\] {
     max-width: 300px;
   }
@@ -1551,10 +1484,6 @@ details[open] summary{
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .md\:bg-gradient-to-b {
-    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   }
 
   .md\:p-0 {
@@ -1810,10 +1739,6 @@ details[open] summary{
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[33px\] {
-    font-size: 33px;
   }
 
   .lg\:text-\[40px\] {
