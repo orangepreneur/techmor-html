@@ -635,14 +635,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -8rem;
 }
 
-.\!mt-20 {
-  margin-top: 5rem !important;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -683,6 +675,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -721,6 +717,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.\!mt-20 {
+  margin-top: 5rem !important;
 }
 
 .block {
@@ -783,12 +783,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.5rem;
 }
 
-.min-h-\[600px\] {
-  min-height: 600px;
-}
-
 .min-h-\[300px\] {
   min-height: 300px;
+}
+
+.min-h-\[600px\] {
+  min-height: 600px;
 }
 
 .min-h-\[350px\] {
@@ -993,14 +993,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gray-400 {
@@ -1058,12 +1058,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(246 246 246 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-20 {
-  --tw-bg-opacity: 0.2;
-}
-
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
 }
 
 .bg-opacity-80 {
@@ -1120,16 +1120,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1143,6 +1133,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2 {
@@ -1178,6 +1173,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-14 {
   padding-left: 3.5rem;
   padding-right: 3.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-4 {
@@ -1216,13 +1216,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1250,11 +1250,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25 !important;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-\[\#7d7d7d\] {
   --tw-text-opacity: 1;
   color: rgb(125 125 125 / var(--tw-text-opacity));
@@ -1268,6 +1263,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-\[\#59787e\] {
@@ -1472,12 +1472,12 @@ details[open] summary{
     bottom: 0px;
   }
 
-  .md\:m-0 {
-    margin: 0px;
-  }
-
   .md\:\!m-0 {
     margin: 0px !important;
+  }
+
+  .md\:m-0 {
+    margin: 0px;
   }
 
   .md\:mb-7 {
@@ -1500,14 +1500,6 @@ details[open] summary{
     min-height: 300px;
   }
 
-  .md\:w-1\/12 {
-    width: 8.333333%;
-  }
-
-  .md\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1516,8 +1508,16 @@ details[open] summary{
     width: 33.333333%;
   }
 
+  .md\:w-1\/12 {
+    width: 8.333333%;
+  }
+
   .md\:w-11\/12 {
     width: 91.666667%;
+  }
+
+  .md\:w-8\/12 {
+    width: 66.666667%;
   }
 
   .md\:w-full {
@@ -1684,10 +1684,6 @@ details[open] summary{
     min-height: 540px;
   }
 
-  .lg\:w-6\/12 {
-    width: 50%;
-  }
-
   .lg\:w-3\/5 {
     width: 60%;
   }
@@ -1792,11 +1788,6 @@ details[open] summary{
     padding-right: 1rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:text-\[24px\] {
     font-size: 24px;
   }
@@ -1804,6 +1795,11 @@ details[open] summary{
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-2xl {
@@ -1944,10 +1940,6 @@ details[open] summary{
     line-height: 1;
   }
 
-  .xl\:text-\[1\.4rem\] {
-    font-size: 1.4rem;
-  }
-
   .xl\:text-\[24px\] {
     font-size: 24px;
   }
@@ -1959,6 +1951,10 @@ details[open] summary{
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-\[1\.4rem\] {
+    font-size: 1.4rem;
   }
 
   .xl\:opacity-100 {
@@ -2039,10 +2035,6 @@ details[open] summary{
     font-size: 73px;
   }
 
-  .\32xl\:text-\[1\.77rem\] {
-    font-size: 1.77rem;
-  }
-
   .\32xl\:text-\[35px\] {
     font-size: 35px;
   }
@@ -2053,6 +2045,10 @@ details[open] summary{
 
   .\32xl\:text-\[41px\] {
     font-size: 41px;
+  }
+
+  .\32xl\:text-\[1\.77rem\] {
+    font-size: 1.77rem;
   }
 
   .\32xl\:text-4xl {
