@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-    <div class="py-10 xl:py-5">
+    <div class="py-10 xl:py-5 overflow-hidden">
         <div class=" px-4 md:px-8 ">
             <!-- Tabs will appear here -->
             <div class="flex items-center border rounded-full bg-gray-200 justify-center max-w-[960px] mx-auto my-5 text-gray-500">
@@ -48,7 +48,7 @@
           <div id="evolutionTab" class="tabContent relative">
                 <div class="max-w-[1000px] xl:!overflow-visible swiper mySwiper relative">
                 <div class="swiper-wrapper pt-10 pb-20">
-             <partial name="timeline-slide.html" color="#b4dbff" year="2008" title="Bond Loan PreQual">
+             <partial name="timeline-slide.html" color="bg-[#b4dbff]" year="2008" title="Bond Loan PreQual">
                 <ul class="list-disc">
                     <li class="text-xl text-[#7d7d7d] mb-2">Web Form for Loan Officers and Real Estate Agents
                         </li>
@@ -56,14 +56,14 @@
                         Enabled Instant Housing Agency loan PreQual</li>
                     </ul>
              </partial>
-             <partial name="timeline-slide.html" year="2010" color="#d0d6ff" title="Forensic Underwriting">
+             <partial name="timeline-slide.html" year="2010" color="bg-[#d0d6ff]" title="Forensic Underwriting">
                 <ul class="list-disc">
                     <li class="text-xl text-[#7d7d7d] mb-2">Expert Witness Portal</li>
                     <li class="text-xl text-[#7d7d7d] mb-2">
                      Empowered by Forensic Defense Underwriting for Lenders in litigation</li>
                     </ul>
              </partial>
-         <partial name="timeline-slide.html" year="2012" color="#fddbf2" title="Default Administration">
+         <partial name="timeline-slide.html" year="2012" color="bg-[#fddbf2]" title="Default Administration">
             <ul class="list-disc">
                 <li class="text-xl text-[#7d7d7d] mb-2">Foreclosure Tracking Portal</li>
                 <li class="text-xl text-[#7d7d7d] mb-2">
@@ -78,68 +78,25 @@
           <div id="fintechTab" class="hidden tabContent relative">
                 <div class="max-w-[1000px] !overflow-visible swiper FinmySwiper relative">
                 <div class="swiper-wrapper pt-10 pb-20">
-                    <div class="swiper-slide">
-                        <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-               <!-- Year -->
-               <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2015</div>
-               <!-- Content -->
-               <div class="z-20">
-                   <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-                       <div class="py-6 px-4 bg-[#ffd1d3] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                        RPL/NPL<br>
-                        Trading            
-                       </div>
-                       <div class="py-6 px-10">
-                           <ul class="list-disc">
-                               <li class="text-xl text-[#7d7d7d] mb-2">Whole Loan Trading Due Diligence Portal</li>
-                               <li class="text-xl text-[#7d7d7d] mb-2">
-                                Facilitated Bidding 
-                                and Boarding</li>
-                               </ul>
-                       </div>
-                   </div>
-               </div>
-               <!--Connecting Strip -->
-               <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-            </div>
-                 </div>
-                 <div class="swiper-slide">
-                    <div class="px-4 md:px-0 md:max-w-[300px] relative flex items-center justify-center flex-col">
-           <!-- Year -->
-           <div class="z-20 px-8 py-2 rounded-full bg-gray-400 text-white mb-16">2016</div>
-           <!-- Content -->
-           <div class="z-20">
-               <div class="rounded-2xl min-h-[300px] transition-all  overflow-hidden border border-gray-200 hover:border-white hover-shadow-blue">
-                   <div class="py-6 px-4 bg-[#ffd1d3] text-xl text-center lg:text-[24px] xl:text-[30px] leading-tight 2xl:text-[35px] font-medium">
-                    QPrismTM Fulfillment          
-                   </div>
-                   <div class="py-6 px-10">
-                       <ul class="list-disc">
-                           <li class="text-xl text-[#7d7d7d] mb-2">End-to-End New Loan Production Web App</li>
-                           <li class="text-xl text-[#7d7d7d] mb-2">
-             Consumer Mobile App Integration
-                           </ul>
-                   </div>
-               </div>
-           </div>
-           <!--Connecting Strip -->
-           <div class="z-0 absolute top-0 left-1/2 w-[10px] h-[150px] bg-gray-200 transform -translate-x-1/2"></div>
-        </div>
-             </div>
              <!-- Slide 1 -->
-             <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+             <partial name="timeline-slide.html" year="2015" color="bg-[#ffd1d3]" title="RPL/NPL<br> Trading">
                 <ul class="list-disc">
-                    <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">Whole Loan Trading Due Diligence Portal</li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">
+                     Facilitated Bidding 
+                     and Boarding</li>
                     </ul>
              </partial>
              <!-- Slide 2 -->
-             <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+             <partial name="timeline-slide.html" year="2016" color="bg-[#ffe8d1]" title="QPrismTM Fulfillment ">
                 <ul class="list-disc">
-                    <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">End-to-End New Loan Production Web App</li>
+                    <li class="text-xl text-[#7d7d7d] mb-2">
+      Consumer Mobile App Integration
                     </ul>
              </partial>
              <!-- Slide 3 -->
-         <partial name="timeline-slide.html" year="2019" color="#ffd1d3" title="PRISMacTM  Underwriting">
+         <partial name="timeline-slide.html" year="2019" color="bg-[#f0ffd1]" title="PRISMacTM  Underwriting">
             <ul class="list-disc">
                 <li class="text-xl text-[#7d7d7d] mb-2">AI Platform Eliminates Human Bottleneck in the loan lifecycle</li>
                 </ul>
