@@ -78,3 +78,8 @@ details[open] .closed{
 details[open] summary{
   color:black !important;
 } 
+
+.list-green-dot li { list-style-image: url(./assets/images/dot-green.png); } 
+
+.list-blue-dot li { list-style-image: url(./assets/images/dot-purple.png); } 
+.list-yellow-dot li { list-style-image: url(./assets/images/dot-yellow.png); } 
