@@ -11,37 +11,37 @@
         <p class="mt-8  text-lg md:text-xl xl:text-[1.4rem] 2xl:text-[41px] text-[#7d7d7d] !leading-tight">We'd love to hear from you!<br>Please take a minute and tell us about your needs so<br>we can better understand what you're looking for.</p>
         <div class="mx-auto my-10 xl:my-20 shadow-career xl:max-w-[1000px] 2xl:max-w-[1200px] bg-gradient-to-b from-gray-100 rounded-xl border border-white px-10 py-8 to-[#a5a6c1]">
             <h2 class="text-2xl md:text-4xl lg:text-4xl text-center mb-10 xl:text-5xl font-semibold leading-tight text-[#7d7d7d]">Contact Us</h2>
-            <form><div class="flex w-full flex-wrap ">
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <input type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Name">
-</div>
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <input type="email" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Email">
-</div>
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <input type="tel" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Phone">
-</div>
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <input type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Organization">
-</div>
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <input type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Job Title">
-</div>
-<div class="md:w-1/2 mb-3 w-full lg:pr-4">
-    <select class="w-full mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" >
-        <partial name="countries.html"></partial>
-    </select>
-</div>
-<div class="w-full mb-3  lg:pr-4">
-    <textarea placeholder="Message" class="w-full mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300"></textarea>
-</div>
-<div class="w-full text-center">
-    <button class="px-10 py-2 text-white text-2xl uppercase hover:bg-gray-500  transition-all bg-gray-600 rounded-full mt-8 " type="submit">Submit</button>
-    <p class="text-center mt-8  text-lg md:text-xl xl:text-[1.4rem] 2xl:text-[41px] text-white !leading-tight">We’ll get back to you as quickly as possible <br>
-        with your request.</p>
-</div>
-
-</div></form>
+            <form method="POST" action="./techmor.mailer.php"><div class="flex w-full flex-wrap ">
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <input name="name" type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Name">
+                </div>
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <input name="email" type="email" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Email">
+                </div>
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <input name="phone" type="tel" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Phone">
+                </div>
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <input name="org" type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Organization">
+                </div>
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <input name="jobTitle" type="text" class="w-full lg:mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" placeholder="Job Title">
+                </div>
+                <div class="md:w-1/2 mb-3 w-full lg:pr-4">
+                    <select name="country" class="w-full mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300" >
+                       <partial name="countries.html"/>
+                    </select>
+                </div>
+                <div class="w-full mb-3  lg:pr-4">
+                    <textarea name="message" placeholder="Message" class="w-full mr-4 px-6 py-2 rounded-2xl bg-white text-lg border border-gray-300"></textarea>
+                </div>
+                <div class="w-full text-center">
+                    <button class="px-10 py-2 text-white text-2xl uppercase hover:bg-gray-500  transition-all bg-gray-600 rounded-full mt-8 " type="submit">Submit</button>
+                    <p class="text-center mt-8  text-lg md:text-xl xl:text-[1.4rem] 2xl:text-[41px] text-white !leading-tight">We’ll get back to you as quickly as possible <br>
+                        with your request.</p>
+                </div>
+                
+                </div></form>
         </div>
     </div>
     </div>
