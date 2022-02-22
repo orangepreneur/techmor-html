@@ -1442,14 +1442,17 @@ details[open] summary{
 
 .list-green-dot li:before,.list-blue-dot li:before,
 .list-yellow-dot li:before{
+  content:" ";
+}
+
+.list-green-dot li:before, .list-blue-dot li:before, .list-yellow-dot li:before {
+  margin-top: 1.25rem;
+  margin-right: 0.75rem;
   display: inline-block;
-  content: " ";
-  width:20px;
-  margin-top:20px;
-  height:20px;
-  margin-right:10px;
+  height: 1rem;
+  width: 1rem;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .list-green-dot li:before{

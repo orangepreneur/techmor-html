@@ -86,14 +86,9 @@ details[open] summary{
 }
 .list-green-dot li:before,.list-blue-dot li:before,
 .list-yellow-dot li:before{
-  display: inline-block;
-  content: " ";
-  width:20px;
-  margin-top:20px;
-  height:20px;
-  margin-right:10px;
-  background-repeat: no-repeat;
-  background-position: center center;
+  content:" ";
+  @apply inline-block w-4 h-4 mt-5 mr-3 bg-no-repeat bg-center;
+  
 }
 .list-green-dot li:before{
   background-image:url('./assets/images/dot-green.png');
