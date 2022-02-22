@@ -1,4 +1,5 @@
 <partial name="head.html" title="AI.ML Solutions">
+    <link href="./assets/js/lightbox/lightbox.min.css" rel="stylesheet">
 </partial>
 <body>
 <partial name="header.html"/>
@@ -29,10 +30,10 @@
      <p class="mt-8  ml-4 text-lg md:text-xl xl:text-[1.4rem] 2xl:text-[41px] text-[#7d7d7d] !leading-tight">Click ‘n Drill Transparency from Dashboards to Source Docs for Loan Level Details</p>
   <div class="mt-20">
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-        <img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/dynamic-dashboard.png" alt="">
-        <img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/exception-summary.png" alt="">
-        <img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/loan-level.png" alt="">
-        <img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/source.png" alt="">
+        <a href="./assets/images/dynamic-dashboard.png" data-lightbox data-image-alt="Image 1"><img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/dynamic-dashboard.png" alt=""></a>
+        <a href="./assets/images/exception-summary.png"  data-lightbox data-image-alt="Image 1"><img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/exception-summary.png" alt=""></a>
+       <a href="./assets/images/loan-level.png"  data-lightbox data-image-alt="Image 1"> <img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/loan-level.png" alt=""></a>
+        <a href="./assets/images/source.png"  data-lightbox data-image-alt="Image 1"><img class="hover-shadow rounded-xl overflow-hidden transition-all cursor-pointer" src="./assets/images/source.png" alt=""></a>
     </div>
   </div>
   <div  class="mt-40">
@@ -92,6 +93,8 @@
       </div>
     </div>
 </div>
+
+<script src="./assets/js/lightbox/lightbox.min.js"></script>
 <partial name="footer.html"></partial>
 <script src="./assets/js/script.js"></script>  
 </body>
